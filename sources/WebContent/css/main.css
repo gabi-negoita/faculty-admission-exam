@@ -1,0 +1,61 @@
+body { 
+	font-family: 'Roboto Thin', sans-serif;
+}
+
+/* Header (logo image + name + role + logout button) */
+.header {
+	height: auto;
+	display: flex;
+	justify-content: space-between;
+	margin: 0.5em;
+	text-align: left;
+	color: rgb(24, 66, 115);
+}
+.header .logocontainer {
+    width: auto;
+	border: 1px solid #C3D6FB;
+   	border-radius: 0.5em;
+	background: #EBF5FB;	
+}
+.header .logocontainer img {
+	width: 5em;
+	margin: 0.5em;	
+	border: none;
+}
+.header .user {
+	background: #EBF5FB;		
+}
+.header .user .logoutbutton button:hover {
+	color: white;
+	background: #5CA0B6;
+}
+.header .user .logoutbutton button:active, button:focus {
+    background: #4A8295;
+}
+
+/* Tab + buttons (search + add + update + results + logs) */
+.tab {
+    overflow: hidden;
+	border: 1px solid #C3D6FB;
+   	border-radius: 0.5em;
+	background: #EBF5FB;	
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    padding: 0.1em;
+}
+.tab button {
+	margin-right: 0.1em;
+	width: 10em;
+	height: auto;
+   	float: left;
+    border: none;
+    border-radius: 0.5em;
+    outline: none;   
+    padding: 0.5em;    
+}
+.tab img {
+	width: 1.5em;
+}
+.tab p {
+	margin: 0px;
+}

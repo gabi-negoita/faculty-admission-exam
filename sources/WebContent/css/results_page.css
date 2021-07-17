@@ -1,0 +1,61 @@
+.results {
+    display: flex;
+    flex-direction: row;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    min-width: 5em;
+}
+.results .controlsandresults {
+	width: 100%;
+}
+.results .controlsandresults .controls {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #C3D6FB;
+   	border-radius: 0.5em;
+	background: #EBF5FB;
+	padding: 0.5em;
+}
+.results .controlsandresults .controls .combobox {
+	min-width: 5em;
+    width: auto;
+}
+.results .controlsandresults .controls .exportbuttons {
+    display: flex;
+    flex-direction: row;
+}
+.results .controlsandresults .controls .exportbuttons .exportpdf {
+    margin-left: 0.5em;
+}
+.results .controlsandresults .controls .exportbuttons .exportpdf img {
+    width: 1em;
+}
+.results .controlsandresults .controls .exportbuttons .exportxls {
+    margin-left: 0.5em;
+}
+.results .controlsandresults .controls .exportbuttons .exportxls img {
+	width: 1em;
+}
+.results .controlsandresults .resultstable {
+    border: 1px solid #C3D6FB;
+   	border-radius: 0.5em;
+	background: #EBF5FB;
+	margin-top: 1em;
+    height: 29.20em;
+    overflow-y: scroll;
+}
+.results .controlsandresults .resultstable th {
+	text-align: left;
+	vertical-align: middle;
+}
+.results .controlsandresults .resultstable td {
+	text-align: left;
+	vertical-align: middle;
+}
+.results .piechart {
+    border: 1px solid #C3D6FB;
+   	border-radius: 0.5em;
+   	background: #EBF5FB;
+	margin-left: 1em;
+    overflow: visible;
+}

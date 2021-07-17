@@ -1,0 +1,76 @@
+html, body {
+	font-family: 'Roboto Thin', sans-serif;
+    background-color: #EBF5FB;
+    height: 100%;
+}
+input[type=text], input[type=password] {
+    padding: 0.5em 2em 0.5em 1em;
+}
+
+.frame {
+  	position: absolute;
+  	top: 50%;
+  	left: 50%;
+    -ms-transform: translate(-50%, -50%);
+  	transform: translate(-50%, -50%);
+	border: 1px solid #C3D6FB;
+   	border-radius: 0.5em;
+	background: white;	
+	box-shadow: 0 0 0em #ccc;
+	transition-timing-function: ease;
+	transition-duration: 0.25s;
+}
+
+.frame:hover {
+	box-shadow: 0 0 1em #ccc;
+}
+
+.logocontainer {
+    text-align: center;
+    padding: 5em;
+}
+.logocontainer img {
+    width: 10em;
+    height: 10em;
+    padding: 0.5em;
+	border: 1px solid #C3D6FB;
+   	border-radius: 0.5em;
+	background: #EBF5FB;	
+	pointer-events: none;
+}
+
+.container {
+    width: 100%;
+}
+.container .lastnamecontainer {
+    margin-bottom: 0.5em;
+}
+.container .firstnamecontainer {
+    margin-bottom: 0.5em;
+}
+.container .usernamecontainer {
+    margin-bottom: 0.5em;
+}
+.container .passwordcontainer {
+	margin-bottom: 0.5em;
+}
+.container .confirmpasswordcontainer {
+	margin-bottom: 2.5em;
+}
+
+.container .button {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.container .button button {
+	width: 100%;
+}
+
+.container .register {
+	text-align: center;
+	margin-top: 1em;
+	border: 1px solid #C3D6FB;
+   	border-radius: 0.5em;
+	background: #EBF5FB;	
+}

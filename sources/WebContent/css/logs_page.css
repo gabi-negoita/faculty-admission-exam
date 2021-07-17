@@ -1,0 +1,50 @@
+.searchfilter {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1em;
+	margin-left: 0.5em;
+	margin-right: 0.5em;
+	border: 1px solid #C3D6FB;
+   	border-radius: 0.5em;
+	background: #EBF5FB;	
+	padding: 0.5em;
+}
+.searchfilter .searchfield {
+    margin-right: 0.5em;
+    width: 25%;
+}
+.searchfilter .rolcombobox {
+    margin-right: 0.5em;
+    width: auto;
+}
+.searchfilter .actiunecombobox {
+    margin-right: 0.5em;
+    width: auto;
+}
+.logstable {
+    border: 1px solid #C3D6FB;
+   	border-radius: 0.5em;
+	background: #EBF5FB;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    margin-bottom: 1em;  
+    height:26.5em;
+    overflow-y: scroll;
+}
+.logstable th {
+	text-align: left;
+	vertical-align: middle;
+}
+.logstable td {
+	text-align: left;
+	vertical-align: middle;
+}
+.resultslabel {
+	padding-left: 0.5em;
+	border: 1px solid #C3D6FB;
+   	border-radius: 0.5em;
+	background: #EBF5FB;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    margin-bottom: 1em;
+}

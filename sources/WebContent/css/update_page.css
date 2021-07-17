@@ -1,0 +1,152 @@
+/* UPDATE CONTROLS */
+.tableandinfo {
+    display: flex;
+    flex-direction: row;
+}
+.searchandtable {
+	width: 100%;
+	margin-top: 0.75em;
+	margin-left: 0.5em;	
+}
+.searchandtable .searchcontainer {
+	margin-bottom: 1em;
+	border: 1px solid #C3D6FB;
+   	border-radius: 0.5em;
+	background: #EBF5FB;
+	padding: 0.5em;
+}
+
+.searchandtable .candidatitable {
+	border: 1px solid #C3D6FB;
+   	border-radius: 0.5em;
+	background: #EBF5FB;
+    min-width: 10em;
+    height: 28.45em;
+    overflow-y: scroll;
+}
+.candidatitable th {
+	text-align: left;
+	vertical-align: middle;
+}
+.candidatitable td {
+	text-align: left;
+	vertical-align: middle;
+}
+
+.dateandexams {
+	min-width: 10em;
+	width: 50em;
+	margin-left: 1em;
+}
+.datecandidatfieldset {
+	margin-right: 0.5em;
+    border: 1px solid #C3D6FB;
+   	border-radius: 0.5em;
+	background: #EBF5FB;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    min-width: 10em;   
+}   
+.datacandidatlegend {
+    width: auto;
+    border: none;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.updatedata {
+    display: flex;
+    flex-direction: row;
+}
+
+.updatedata .datecandidat {
+    width: auto;
+}
+
+.updatedata .datecandidat .numecomplet {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 0.5em;
+}
+
+.updatedata .datecandidat .numecomplet .nume {
+   	min-width: 10em;
+   	width: 50%;
+}
+.updatedata .datecandidat .numecomplet .inittata {
+    margin-left: 0.5em;
+    min-width: 5em;
+    width: 10em;
+}
+.updatedata .datecandidat .numecomplet .prenume {
+    margin-left: 0.5em;
+    min-width: 10em;
+    width: 50%;
+}
+
+.updatedata .datecandidat .cnpsidatanastere {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 0.5em;
+}
+.updatedata .datecandidat .cnpsidatanastere .cnp {
+    width: 100%;          
+}
+.updatedata .datecandidat .cnpsidatanastere .datanastere {
+    margin-left: 0.5em;
+    min-width: 10em;
+	width: 20em;        
+}
+
+.updatedata .datecandidat .liceusimedie {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 0.5em;
+}
+.updatedata .datecandidat .liceusimedie .liceu {
+    width: 100%;
+}
+.updatedata .datecandidat .liceusimedie .medieliceu {
+    margin-left: 0.5em;
+    min-width: 7.5em;
+}
+.updatedata .datecandidat .liceusimedie .mediebac {
+    margin-left: 0.5em;
+	min-width: 10em;
+}
+
+.examstable {
+    border: 1px solid #C3D6FB;
+   	border-radius: 0.5em;
+	background: #EBF5FB;
+    margin-top: 1em;
+    min-width: 10em;
+    overflow-y: scroll;
+    margin-right: 0.5em;
+    margin-bottom: 1em;
+	height: 11.5em;
+	min-width: 10em;
+}
+.examstable th {
+	text-align: left;
+	vertical-align: middle;
+}
+.examstable td {
+	text-align: left;
+	vertical-align: middle;
+}
+
+.deleteandsubmit {
+    display: flex;
+    justify-content: space-between;	
+    margin-right: 0.5em;
+    border: 1px solid #C3D6FB;
+   	border-radius: 0.5em;
+	background: #EBF5FB;
+	padding: 0.5em;
+}
+
+tr.highlighted td {
+	color: white;
+    background: #5CA0B6;
+}

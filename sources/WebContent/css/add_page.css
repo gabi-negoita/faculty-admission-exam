@@ -1,0 +1,149 @@
+.datecandidat {
+    width: auto;
+    min-width: 10em;
+}
+.datecandidatfieldset {
+	margin-right: 0.5em;
+	margin-left: 0.5em;
+    border: solid 1px #C3D6FB;
+    border-radius: 0.5em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    min-width: 10em;   
+    background: #EBF5FB; 
+}
+.datacandidatlegend {
+	width: auto;
+    border: none;
+    font-size: 1em;
+    font-weight: bold;
+}
+.datecandidat .numecandidat {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 0.5em;
+}
+.datecandidat .numecandidat .nume {
+   	min-width: 10em;
+   	width: 50%;
+}
+.datecandidat .numecandidat .inittata {
+    margin-left: 0.5em;
+    min-width: 5em;
+    width: 10em;
+}
+.datecandidat .numecandidat .prenume {
+    margin-left: 0.5em;
+    min-width: 10em;
+    width: 50%;
+}
+
+.datecandidat .cnpsidatanastere {
+	display: flex;
+    flex-direction: row;
+    margin-bottom: 0.5em;
+}
+.datecandidat .cnpsidatanastere .cnp {
+    width: 100%;
+}
+.datecandidat .cnpsidatanastere .datanastere {
+    margin-left: 0.5em;
+    min-width: 10em;
+	width: 20em;
+}
+
+.datecandidat .liceusimedii {
+	display: flex;
+    flex-direction: row;
+    margin-bottom: 0.5em;
+}
+.datecandidat .liceusimedii .liceu {
+    width: 100%;
+}
+.datecandidat .liceusimedii .medieliceu {
+    margin-left: 0.5em;
+    min-width: 7.5em;
+    
+}
+.datecandidat .liceusimedii .mediebac {
+    margin-left: 0.5em;
+	min-width: 10em;
+}
+
+.optionssection {
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    display: flex;
+    flex-direction: row;
+    margin-top: 0.25em;
+}
+.optionssection .optiunicandidatfieldset {
+    border: solid 1px #C3D6FB;
+    border-radius: 0.5em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    min-width: 10em;   
+    width: 50em;
+    background: #EBF5FB; 
+}   
+.optionssection .optiunicandidatlegend {
+    width: auto;
+    border: none;
+    font-size: 1em;
+    font-weight: bold;
+}
+.optionssection .optiunicandidat {
+    width: 100%;
+}
+.optionssection .optiunicandidat .universitate {
+    margin-bottom: 0.5em;
+}
+.optionssection .optiunicandidat .facultate {
+    margin-bottom: 0.5em;
+}
+.optionssection .optiunicandidat .domeniu {
+    margin-bottom: 0.5em;
+}
+.optionssection .optiunicandidat .specializare {
+    margin-bottom: 0.5em;
+}
+.optionssection .optiunicandidat .bugettaxa {
+    margin-bottom: 0.5em;
+}
+.optionssection .optiunicandidat .addoption {
+	text-align: right;
+	margin-bottom: 0.5em;
+}
+.optionssection .optionstable {
+	margin-top: 0.75em;
+    margin-left: 1em;
+    min-width: 10em;
+  	border: 1px solid #C3D6FB;
+   	border-radius: 0.5em;
+	background: #EBF5FB;
+  	overflow: hidden;
+    width: 100%;
+}
+.optionssection .optionstable th {
+	text-align: left;
+	vertical-align: middle;
+}
+.optionssection .optionstable td {
+	text-align: left;
+	vertical-align: middle;
+}
+
+.submitbutton {
+    margin-top: 1em;
+    margin-right: 0.5em;
+    margin-left: 0.5em;
+    text-align: center;
+	border: 1px solid #C3D6FB;
+   	border-radius: 0.5em;
+	background: #EBF5FB;
+	padding: 0.5em;
+}
+.submitbutton [type="submit"]{
+    padding-left: 2em;
+    padding-right: 2em;
+}

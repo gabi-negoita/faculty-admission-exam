@@ -1,5 +1,5 @@
 
-# Faculty admission management
+# University Admission Management Platform
 
 [RO]: Aplicație Web care gestionează studenții în cadrul examenului de admitere la o facultate
 

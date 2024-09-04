@@ -1,5 +1,5 @@
 
-# Faculty admission exam website
+# Faculty admission management
 
 [RO]: Aplicație Web care gestionează studenții în cadrul examenului de admitere la o facultate
 
